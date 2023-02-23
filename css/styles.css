@@ -569,7 +569,27 @@ border-radius: 4px;
 
 
 }
-.is-hidden{
+.backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
+}
+.close-modal{
+    position: absolute;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top: 24px;
+    right: 24px;
+    height: 24px;
+    width: 24px;
+    background: #E7E9FC;
+border: 1px solid rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+
+}
+.modal-icon{
+    width: 8px;
+    height: 8px;
 }
