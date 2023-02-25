@@ -627,6 +627,10 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 border-radius: 50%;
 
 }
+.close-modal:hover, .close-modal:focus{
+    background-color: var(--background-color-button);
+    fill: var(--secondary-font-color);
+}
 .modal-icon{
     width: 8px;
     height: 8px;
