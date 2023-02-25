@@ -84,8 +84,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .top-line-nav:hover, .top-line-nav:focus{
     color: var(--background-color-button);
 }
+.trait-studio, .trait-portfolio{
+    color: var(--color-brand);
+}
 
-.top-line-nav.trait-studio::after{
+.top-line-nav.trait-studio::after, .top-line-nav.trait-portfolio::after{
     opacity: 1;
     content: "";
     display: block;
@@ -98,18 +101,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.top-line-nav.trait-portfolio::after{
-    opacity: 1;
-    content: "";
-    display: block;
-    height: 4px;
-    width: 100%;
-    background-color: var(--color-brand);
-    border-radius: 2px;
-    position: absolute;
-    bottom: -1px;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .font-adress{
     color: var(--basic-font);
     text-decoration: none;
